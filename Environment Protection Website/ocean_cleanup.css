@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Special+Elite&display=swap');
+
+font-face{
+/*Set up a font stack, when these fonts are not 
+installed on the machine, you can also use the font
+stack to achieve fonts*/
+    font-family: 'Darker Grotesque', sans-serif;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Special Elite', cursive;
+  
+}
+
+body,html {
+    /*Full text centered*/
+	margin: 0;
+	
+    text-align: center;
+    
+  
+}
+
+p{
+    /*Full text style*/
+    margin-top: 20px;
+margin-bottom: 50px;
+
+}
+
+
+
+header{
+    /*The font and size of the title*/
+  font-family: Special Elite;
+  margin-top: 60px;
+ 
+}
+
+div.topcontainer{
+    /*The background of the first container, with 
+    *the space above it, set the size of the ocean image.*/
+    background: url('http://homepages.cs.ncl.ac.uk/harold.fellermann/csc8018/ocean_cleanup/resources/ocean.jpg');
+    background-repeat: no-repeat;/*Prevent repeated arrangement of
+                                   pictures to cover the background*/
+    padding-top: 90px;
+    background-position:bottom;/*Show the bottom part of the 
+                               picture as the background*/
+    background-size:1980px 800px;
+    font-family:Darker Grotesque;
+     
+    
+}
+
+
+
+
+
+.menu{
+    /*Edit the top menu bar. Color, there is 
+    a certain space inside, one line of 
+    display, the position is relative, 
+    so when the screen is reduced, they 
+    will stack up for easy reading*/
+    color: white;
+    padding: 14px 14px;
+    outline: none;
+    text-decoration: none;/*Remove all dots and underscores 
+                            in html because of references and lists*/
+    display: inline-block;
+    position: relative;
+    min-width: 220px;/*Maximum width*/
+ 
+}
+
+.topbottom {
+    /*Set the dark color of the top menu bar, 
+    highlight the menu, and have transparency*/
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+   font-weight: 600;
+   font-size: 16pt;
+   
+
+}
+
+.the{
+    /*the small font*/
+    text-transform:uppercase;/*All text becomes uppercase*/
+    font-size: 24pt;
+    color: white;
+    font-weight:400;
+    font-family:Darker Grotesque;
+    line-height: 100px;
+   vertical-align: 40%;
+}
+
+.ocean{
+    /*Set the color font of the ocean title*/
+    text-transform:uppercase;/*All text becomes uppercase*/
+    color: white;
+    font-family:Darker Grotesque;
+    font-weight:300;
+    font-size: 70pt;
+    text-shadow: 3px 3px 4px #3b3b3b;
+   
+}
+
+
+.cleanup{
+    /*Set the color font of the cleanup title*/
+    text-transform:uppercase;/*All text becomes uppercase*/
+    color: white;
+    font-family:Darker Grotesque;
+    font-size: 70pt;
+    text-shadow: 3px 3px 4px #3b3b3b;
+   
+}
+
+.titleO{
+    /*Set the distance of the title from the bottom*/
+margin-bottom: 100px;
+
+}
+
+
+.topcontainer li {
+    /*Let the list element in the menu bar clear the original settings and arrange them in a row*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+      display: inline;/*Arranged in a horizontal row*/
+	width: 0%;
+     
+     
+}
+
+#OceanTitle{
+    /*The overall position of the headline is centered*/
+position: relative;
+text-align:center;
+
+}
+
+
+li :hover{
+    /*When the mouse moves to the menu, the background becomes white, and the menu*/
+    background-color: rgba(228, 228, 228, 0.75);
+    color:rgb(1, 117, 117);
+}
+
+.secondContainer{
+    /*The overall style of the second container, 
+    centered, limited to the width so that it can 
+    not fill the entire screen, font settings*/
+   
+    width: 90%;
+    max-width: 80ch;
+    margin: 50px auto 100px auto;/*Leave a certain space 
+                                  between the top container and the third container*/
+    text-align: left;   
+    font-family: EB Garamond;
+    font-weight: 500;
+    font-size: 16pt;
+    
+}
+
+
+
+iframe{
+    /*Starting from html5, iframe attributes 
+    cannot be modified in html. So modify the 
+    border and size of the iframe in css.*/
+    border-width: 0px;
+    width: 640px;
+    height: 400px;
+    border: 6px solid white;
+    
+}
+
+
+
+
+img{
+    /*Limit the size of the image in the image container*/
+    width: 100%;
+
+
+
+}
+
+.map{
+    /*The production of photo album pictures,
+     rotate the whole container, leave a part 
+     of space with the text next to it for easy 
+     reading, color setting*/
+    transform: rotate(-0.01turn);
+    border: 3px solid #bbbbbb;
+    float: left;/*The containers are arranged to the left, 
+                  with text on the right*/
+    margin-right: 25px;
+    margin-bottom: 15px;
+    max-width: 40ch;/*Maximum width of the overall container*/
+    display: inline;
+    margin-top: 25px;
+    box-shadow: 10px 10px 26px #b9b9b9;/*Make the overall shadow 
+                                           effect of the container*/
+    color: #858585;
+    text-align: right;   
+    padding: 10px;
+    
+  
+
+}
+
+
+
+
+
+
+.history{
+    /*The production of photo album pictures, rotate the 
+    whole container, leave a part of space with the text 
+    next to it for easy reading, color setting*/
+    transform: rotate(0.01turn);
+    border: 3px solid #bbbbbb;
+    float: right;/*The containers are arranged to the right, 
+                   with text on the left*/
+    margin-left: 25px;
+    margin-bottom: 15px;
+    max-width: 32ch;
+    display: inline;
+    margin-top: 25px;
+    box-shadow: 10px 10px 26px #b9b9b9;
+    color: #858585;
+    text-align: right;
+    padding: 10px;
+}
+
+
+
+.river{
+    /*The production of photo album pictures, rotate the whole 
+      container, leave a part of space with the text next to it 
+      for easy reading, color setting*/
+   transform: rotate(0.005turn);
+   border: 3px solid #bbbbbb;
+    float: left;/*The containers are arranged to the left, 
+                   with text on the right*/
+    margin-right: 25px;
+    margin-bottom: 15px;
+    max-width: 40ch;
+    display: inline;
+    margin-top: 25px;
+    box-shadow: 10px 10px 26px #b9b9b9;
+    color: #858585;
+    text-align: right;
+    padding: 10px;
+}
+
+.System001{
+    /*The production of photo album pictures, rotate the whole 
+    container, leave a part of space with the text next to it 
+    for easy reading, color setting*/
+    transform: rotate(-0.005turn);
+    border: 3px solid #bbbbbb;
+    float: right;/*The containers are arranged to the 
+                    right, with text on the left*/
+    margin-left: 25px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    max-width: 40ch;
+    display: inline;
+    box-shadow: 10px 10px 26px #b9b9b9;
+    color: #858585;
+    text-align: right;
+    padding: 10px;
+}
+
+
+
+
+
+.summary{
+    /*Set the dark color of the top menu bar, 
+    highlight the menu, and have transparency*/
+    display: none;
+}
+
+.submenue{
+    /*sublist appears in html for positioning, 
+      but does not need to appear in*/
+   display: none;
+}
+
+
+table{
+    /*Set the width of the table relative to the screen to make it easier to read, center it, and remove the borders on both sides of the table*/
+    width:80%;
+  margin: 0 auto;
+ border-collapse:collapse;/*remove the borders on both sides of the table*/
+ text-align:center;
+ 
+}
+
+table,th,tr,td{ 
+    /*The horizontal border of the table, the text is aligned to the left*/
+ border-bottom:1px solid #000000;
+ text-align:left;
+}
+
+caption{
+    /*The header box of the table is bold, and the text is centered*/
+   font-weight: 600;
+    border-bottom:3px solid #000000;
+  border-top: 3px solid #000000;
+    text-align:center;
+}
+
+.bottomline{
+    /*Bold the border of the last row of the table*/
+    border-bottom:3px solid #000000;
+
+}
+
+.technologysentense{
+    /*Special font for text, centered, relative to the width of the screen*/
+color: rgb(26, 141, 141);
+font-size: 25pt;
+text-align: center;/*Text centered*/
+width: 80%;
+margin: auto auto auto 50px;
+
+}
+
+.tridContainer{
+    /*The third container, the background image is the same as the first container, the width fills the screen, and the bottom of the background image is used*/
+    background: url('http://homepages.cs.ncl.ac.uk/harold.fellermann/csc8018/ocean_cleanup/resources/ocean.jpg');
+    background-repeat: no-repeat;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    width: 100%;
+    background-size:1980px 800px;/*The size of the background image*/
+    background-position:bottom;/*The bottom of the background image*/
+    font-family:Darker Grotesque;
+    text-align: center;
+
+    
+}
+
+
+
+.wiki{
+    /*wiki text style*/
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+   
+    
+    line-height: 100px;
+    text-align:center;
+}
+
+
+.wikicon{
+    /*Wiki text as a separate container in order to set the width and automatically arrange vertically when the screen is reduced*/
+width: 40%;
+margin:0 auto;
+}

@@ -1,0 +1,561 @@
+------------------------------
+MENU
+f - to finish running the program
+e - to display on the screen information about all the events
+c - to display on the screen information about all the clients
+b - to update the stored data when tickets are bought by one of the registered clients
+r - to update the stored data when a registered client cancels/returns tickets
+------------------------------
+Type a letter and press Enter
+e
+
+      Event name is:Bobsleigh
+      Ticket number is:      41
+
+      Event name is:Curling 
+      Ticket number is:      8
+
+      Event name is:Figure Skating
+      Ticket number is:      7
+
+      Event name is:Ice Hockey
+      Ticket number is:      2
+
+      Event name is:Ski Jumping 
+      Ticket number is:      66
+
+      Event name is:Snowboarding 
+      Ticket number is:      4
+------------------------------
+MENU
+f - to finish running the program
+e - to display on the screen information about all the events
+c - to display on the screen information about all the clients
+b - to update the stored data when tickets are bought by one of the registered clients
+r - to update the stored data when a registered client cancels/returns tickets
+------------------------------
+Type a letter and press Enter
+c
+Dear Anna Jones: You haven't order any ticket
+
+Dear Michael Jones: You haven't order any ticket
+
+Dear Ted Smith: You haven't order any ticket
+
+------------------------------
+MENU
+f - to finish running the program
+e - to display on the screen information about all the events
+c - to display on the screen information about all the clients
+b - to update the stored data when tickets are bought by one of the registered clients
+r - to update the stored data when a registered client cancels/returns tickets
+------------------------------
+Type a letter and press Enter
+b
+Please enter the name of the client
+Anna Jones
+Please enter the event name that client want to buy the ticket
+Bobsleigh
+Please enter how much number ticket you want to buy
+-1
+Your number beyond requirement
+------------------------------
+MENU
+f - to finish running the program
+e - to display on the screen information about all the events
+c - to display on the screen information about all the clients
+b - to update the stored data when tickets are bought by one of the registered clients
+r - to update the stored data when a registered client cancels/returns tickets
+------------------------------
+Type a letter and press Enter
+b
+Please enter the name of the client
+Anna Jones
+Please enter the event name that client want to buy the ticket
+Bobsleigh
+Please enter how much number ticket you want to buy
+100
+Dear Anna Jones
+
+We are sorry to inform you that the ticket of: Bobsleigh have been sold out or less than your requirement. Please check the information of event ticket
+
+Best wish
+------------------------------
+MENU
+f - to finish running the program
+e - to display on the screen information about all the events
+c - to display on the screen information about all the clients
+b - to update the stored data when tickets are bought by one of the registered clients
+r - to update the stored data when a registered client cancels/returns tickets
+------------------------------
+Type a letter and press Enter
+b
+Please enter the name of the client
+Anna Jones
+Please enter the event name that client want to buy the ticket
+Bobsleigh
+Please enter how much number ticket you want to buy
+41
+------------------------------
+MENU
+f - to finish running the program
+e - to display on the screen information about all the events
+c - to display on the screen information about all the clients
+b - to update the stored data when tickets are bought by one of the registered clients
+r - to update the stored data when a registered client cancels/returns tickets
+------------------------------
+Type a letter and press Enter
+e
+
+      Event name is:Bobsleigh
+      Ticket number is:      0
+
+      Event name is:Curling 
+      Ticket number is:      8
+
+      Event name is:Figure Skating
+      Ticket number is:      7
+
+      Event name is:Ice Hockey
+      Ticket number is:      2
+
+      Event name is:Ski Jumping 
+      Ticket number is:      66
+
+      Event name is:Snowboarding 
+      Ticket number is:      4
+------------------------------
+MENU
+f - to finish running the program
+e - to display on the screen information about all the events
+c - to display on the screen information about all the clients
+b - to update the stored data when tickets are bought by one of the registered clients
+r - to update the stored data when a registered client cancels/returns tickets
+------------------------------
+Type a letter and press Enter
+c
+Dear Anna Jones your order information: [{Bobsleigh=41}]
+
+Dear Michael Jones: You haven't order any ticket
+
+Dear Ted Smith: You haven't order any ticket
+
+------------------------------
+MENU
+f - to finish running the program
+e - to display on the screen information about all the events
+c - to display on the screen information about all the clients
+b - to update the stored data when tickets are bought by one of the registered clients
+r - to update the stored data when a registered client cancels/returns tickets
+------------------------------
+Type a letter and press Enter
+b
+Please enter the name of the client
+Anna Jones
+Please enter the event name that client want to buy the ticket
+Curling
+Please enter how much number ticket you want to buy
+2
+------------------------------
+MENU
+f - to finish running the program
+e - to display on the screen information about all the events
+c - to display on the screen information about all the clients
+b - to update the stored data when tickets are bought by one of the registered clients
+r - to update the stored data when a registered client cancels/returns tickets
+------------------------------
+Type a letter and press Enter
+b
+Please enter the name of the client
+Anna Jones
+Please enter the event name that client want to buy the ticket
+Ice Hockey
+Please enter how much number ticket you want to buy
+1
+------------------------------
+MENU
+f - to finish running the program
+e - to display on the screen information about all the events
+c - to display on the screen information about all the clients
+b - to update the stored data when tickets are bought by one of the registered clients
+r - to update the stored data when a registered client cancels/returns tickets
+------------------------------
+Type a letter and press Enter
+e
+
+      Event name is:Bobsleigh
+      Ticket number is:      0
+
+      Event name is:Curling 
+      Ticket number is:      6
+
+      Event name is:Figure Skating
+      Ticket number is:      7
+
+      Event name is:Ice Hockey
+      Ticket number is:      1
+
+      Event name is:Ski Jumping 
+      Ticket number is:      66
+
+      Event name is:Snowboarding 
+      Ticket number is:      4
+------------------------------
+MENU
+f - to finish running the program
+e - to display on the screen information about all the events
+c - to display on the screen information about all the clients
+b - to update the stored data when tickets are bought by one of the registered clients
+r - to update the stored data when a registered client cancels/returns tickets
+------------------------------
+Type a letter and press Enter
+c
+Dear Anna Jones your order information: [{Ice Hockey=1, Curling =2, Bobsleigh=41}]
+
+Dear Michael Jones: You haven't order any ticket
+
+Dear Ted Smith: You haven't order any ticket
+
+------------------------------
+MENU
+f - to finish running the program
+e - to display on the screen information about all the events
+c - to display on the screen information about all the clients
+b - to update the stored data when tickets are bought by one of the registered clients
+r - to update the stored data when a registered client cancels/returns tickets
+------------------------------
+Type a letter and press Enter
+b
+Please enter the name of the client
+Anna Jones
+Please enter the event name that client want to buy the ticket
+Snowboarding
+Please enter how much number ticket you want to buy
+2
+You can't not buy more than 3 event ticket
+------------------------------
+MENU
+f - to finish running the program
+e - to display on the screen information about all the events
+c - to display on the screen information about all the clients
+b - to update the stored data when tickets are bought by one of the registered clients
+r - to update the stored data when a registered client cancels/returns tickets
+------------------------------
+Type a letter and press Enter
+e
+
+      Event name is:Bobsleigh
+      Ticket number is:      0
+
+      Event name is:Curling 
+      Ticket number is:      6
+
+      Event name is:Figure Skating
+      Ticket number is:      7
+
+      Event name is:Ice Hockey
+      Ticket number is:      1
+
+      Event name is:Ski Jumping 
+      Ticket number is:      66
+
+      Event name is:Snowboarding 
+      Ticket number is:      4
+------------------------------
+MENU
+f - to finish running the program
+e - to display on the screen information about all the events
+c - to display on the screen information about all the clients
+b - to update the stored data when tickets are bought by one of the registered clients
+r - to update the stored data when a registered client cancels/returns tickets
+------------------------------
+Type a letter and press Enter
+c
+Dear Anna Jones your order information: [{Ice Hockey=1, Curling =2, Bobsleigh=41}]
+
+Dear Michael Jones: You haven't order any ticket
+
+Dear Ted Smith: You haven't order any ticket
+
+------------------------------
+MENU
+f - to finish running the program
+e - to display on the screen information about all the events
+c - to display on the screen information about all the clients
+b - to update the stored data when tickets are bought by one of the registered clients
+r - to update the stored data when a registered client cancels/returns tickets
+------------------------------
+Type a letter and press Enter
+r
+Please enter the name of the client
+Anna Jones
+Please enter the event name that client want to return the ticket
+100
+You enter the wrong Event information, please enter again
+------------------------------
+MENU
+f - to finish running the program
+e - to display on the screen information about all the events
+c - to display on the screen information about all the clients
+b - to update the stored data when tickets are bought by one of the registered clients
+r - to update the stored data when a registered client cancels/returns tickets
+------------------------------
+Type a letter and press Enter
+r
+Please enter the name of the client
+Anna Jones
+Please enter the event name that client want to return the ticket
+Ice Hockey
+Please enter the number of ticket you want to return
+100
+Return ticket fails, you don't have enough ticket
+------------------------------
+MENU
+f - to finish running the program
+e - to display on the screen information about all the events
+c - to display on the screen information about all the clients
+b - to update the stored data when tickets are bought by one of the registered clients
+r - to update the stored data when a registered client cancels/returns tickets
+------------------------------
+Type a letter and press Enter
+b
+Please enter the name of the client
+Anna Jones
+Please enter the event name that client want to buy the ticket
+Ice Hockey
+Please enter how much number ticket you want to buy
+1
+------------------------------
+MENU
+f - to finish running the program
+e - to display on the screen information about all the events
+c - to display on the screen information about all the clients
+b - to update the stored data when tickets are bought by one of the registered clients
+r - to update the stored data when a registered client cancels/returns tickets
+------------------------------
+Type a letter and press Enter
+e
+
+      Event name is:Bobsleigh
+      Ticket number is:      0
+
+      Event name is:Curling 
+      Ticket number is:      6
+
+      Event name is:Figure Skating
+      Ticket number is:      7
+
+      Event name is:Ice Hockey
+      Ticket number is:      0
+
+      Event name is:Ski Jumping 
+      Ticket number is:      66
+
+      Event name is:Snowboarding 
+      Ticket number is:      4
+------------------------------
+MENU
+f - to finish running the program
+e - to display on the screen information about all the events
+c - to display on the screen information about all the clients
+b - to update the stored data when tickets are bought by one of the registered clients
+r - to update the stored data when a registered client cancels/returns tickets
+------------------------------
+Type a letter and press Enter
+c
+Dear Anna Jones your order information: [{Ice Hockey=2, Curling =2, Bobsleigh=41}]
+
+Dear Michael Jones: You haven't order any ticket
+
+Dear Ted Smith: You haven't order any ticket
+
+------------------------------
+MENU
+f - to finish running the program
+e - to display on the screen information about all the events
+c - to display on the screen information about all the clients
+b - to update the stored data when tickets are bought by one of the registered clients
+r - to update the stored data when a registered client cancels/returns tickets
+------------------------------
+Type a letter and press Enter
+r
+Please enter the name of the client
+Anna Jones
+Please enter the event name that client want to return the ticket
+Ice Hockey
+Please enter the number of ticket you want to return
+2
+------------------------------
+MENU
+f - to finish running the program
+e - to display on the screen information about all the events
+c - to display on the screen information about all the clients
+b - to update the stored data when tickets are bought by one of the registered clients
+r - to update the stored data when a registered client cancels/returns tickets
+------------------------------
+Type a letter and press Enter
+e
+
+      Event name is:Bobsleigh
+      Ticket number is:      0
+
+      Event name is:Curling 
+      Ticket number is:      6
+
+      Event name is:Figure Skating
+      Ticket number is:      7
+
+      Event name is:Ice Hockey
+      Ticket number is:      2
+
+      Event name is:Ski Jumping 
+      Ticket number is:      66
+
+      Event name is:Snowboarding 
+      Ticket number is:      4
+------------------------------
+MENU
+f - to finish running the program
+e - to display on the screen information about all the events
+c - to display on the screen information about all the clients
+b - to update the stored data when tickets are bought by one of the registered clients
+r - to update the stored data when a registered client cancels/returns tickets
+------------------------------
+Type a letter and press Enter
+c
+Dear Anna Jones your order information: [{Curling =2, Bobsleigh=41}]
+
+Dear Michael Jones: You haven't order any ticket
+
+Dear Ted Smith: You haven't order any ticket
+
+------------------------------
+MENU
+f - to finish running the program
+e - to display on the screen information about all the events
+c - to display on the screen information about all the clients
+b - to update the stored data when tickets are bought by one of the registered clients
+r - to update the stored data when a registered client cancels/returns tickets
+------------------------------
+Type a letter and press Enter
+b
+Please enter the name of the client
+Ted Smith
+Please enter the event name that client want to buy the ticket
+Figure Skating
+Please enter how much number ticket you want to buy
+7
+------------------------------
+MENU
+f - to finish running the program
+e - to display on the screen information about all the events
+c - to display on the screen information about all the clients
+b - to update the stored data when tickets are bought by one of the registered clients
+r - to update the stored data when a registered client cancels/returns tickets
+------------------------------
+Type a letter and press Enter
+e
+
+      Event name is:Bobsleigh
+      Ticket number is:      0
+
+      Event name is:Curling 
+      Ticket number is:      6
+
+      Event name is:Figure Skating
+      Ticket number is:      0
+
+      Event name is:Ice Hockey
+      Ticket number is:      2
+
+      Event name is:Ski Jumping 
+      Ticket number is:      66
+
+      Event name is:Snowboarding 
+      Ticket number is:      4
+------------------------------
+MENU
+f - to finish running the program
+e - to display on the screen information about all the events
+c - to display on the screen information about all the clients
+b - to update the stored data when tickets are bought by one of the registered clients
+r - to update the stored data when a registered client cancels/returns tickets
+------------------------------
+Type a letter and press Enter
+c
+Dear Anna Jones your order information: [{Curling =2, Bobsleigh=41}]
+
+Dear Michael Jones: You haven't order any ticket
+
+Dear Ted Smith your order information: [{Figure Skating=7}]
+
+------------------------------
+MENU
+f - to finish running the program
+e - to display on the screen information about all the events
+c - to display on the screen information about all the clients
+b - to update the stored data when tickets are bought by one of the registered clients
+r - to update the stored data when a registered client cancels/returns tickets
+------------------------------
+Type a letter and press Enter
+r
+Please enter the name of the client
+Ted Smith
+Please enter the event name that client want to return the ticket
+Figure Skating
+Please enter the number of ticket you want to return
+7
+------------------------------
+MENU
+f - to finish running the program
+e - to display on the screen information about all the events
+c - to display on the screen information about all the clients
+b - to update the stored data when tickets are bought by one of the registered clients
+r - to update the stored data when a registered client cancels/returns tickets
+------------------------------
+Type a letter and press Enter
+e
+
+      Event name is:Bobsleigh
+      Ticket number is:      0
+
+      Event name is:Curling 
+      Ticket number is:      6
+
+      Event name is:Figure Skating
+      Ticket number is:      7
+
+      Event name is:Ice Hockey
+      Ticket number is:      2
+
+      Event name is:Ski Jumping 
+      Ticket number is:      66
+
+      Event name is:Snowboarding 
+      Ticket number is:      4
+------------------------------
+MENU
+f - to finish running the program
+e - to display on the screen information about all the events
+c - to display on the screen information about all the clients
+b - to update the stored data when tickets are bought by one of the registered clients
+r - to update the stored data when a registered client cancels/returns tickets
+------------------------------
+Type a letter and press Enter
+c
+Dear Anna Jones your order information: [{Curling =2, Bobsleigh=41}]
+
+Dear Michael Jones: You haven't order any ticket
+
+Dear Ted Smith: You haven't order any ticket
+
+------------------------------
+MENU
+f - to finish running the program
+e - to display on the screen information about all the events
+c - to display on the screen information about all the clients
+b - to update the stored data when tickets are bought by one of the registered clients
+r - to update the stored data when a registered client cancels/returns tickets
+------------------------------
+Type a letter and press Enter
+f
